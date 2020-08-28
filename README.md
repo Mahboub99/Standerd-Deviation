@@ -39,4 +39,4 @@ you can export the image!!
 
 > https://standerd-deviation.herokuapp.com/
 
-> goodbye you can ask me for any further information ahmed.mahboub99@gmaul.com
+> goodbye you can ask me for any further information ahmed.mahboub99@gmail.com
