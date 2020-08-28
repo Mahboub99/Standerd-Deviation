@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="dist/tui-chart.css" />
+
+    <script src="dist/tui-chart.js"></script>
+    <script src="dist/tui-chart-all.js"></script>
+    <script src="dist/tui-chart-polyfill.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <h1 style="margin: auto; color: #87556f;">Standerd Deviation</h1>
+    <div class="Parent-Container">
+      <div class="chiled-container data" id="inputs-container">
+        <input id="numberOfInputs" type="number" min="1" value="1" />
+        <button
+          id="numberOfInputs-btn"
+          style="display: block; margin: auto;"
+          class="sd-btn"
+        >
+          create
+        </button>
+        <button id="Draw">Draw</button>
+        <button id="Reset">Reset</button>
+      </div>
+      <div class="chiled-container graph" id="chart-area"></div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
